@@ -1,9 +1,9 @@
 #!groovy
 
-@Library('github.com/red-panda-ci/jenkins-pipeline-library@v3.1.6') _
+@Library('github.com/ayudadigital/jenkins-pipeline-library@v4.0.0') _
 
 // Initialize global config
-cfg = jplConfig('vagrant-virtualbox-proxmox-cluster', 'vagrant', '', [slack: '#integrations', email:'pedro.rodriguez+vagrant-virtualbox-proxmox-cluster@kairosds.com'])
+cfg = jplConfig('vagrant-virtualbox-proxmox-cluster', 'vagrant', '', [email: env.CI_NOTIFY_EMAIL_TARGETS])
 
 pipeline {
     agent none
