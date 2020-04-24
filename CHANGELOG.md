@@ -1,5 +1,26 @@
 # Changelog
 
+## v2.0.0 (2020-04-24)
+
+### Changes
+
+#### Breaking
+
+* Upgrade license ([6a5bc9b](https://github.com/ayudadigital/vagrant-virtualbox-proxmox-cluster/commit/6a5bc9b))
+
+#### Build
+
+* Update Auto Release Log adding v2.0.0 info with JPL ([0054fc8](https://github.com/ayudadigital/vagrant-virtualbox-proxmox-cluster/commit/0054fc8))
+
+#### Docs
+
+* Add contributing and code of conduct ([11f2b52](https://github.com/ayudadigital/vagrant-virtualbox-proxmox-cluster/commit/11f2b52))
+* Generate v1.1.1 changelog with JPL ([7ee2d49](https://github.com/ayudadigital/vagrant-virtualbox-proxmox-cluster/commit/7ee2d49))
+
+### Authors
+
+* Pedro Amador
+
 ## v1.1.1 (2020-04-24)
 
 ### Changes
